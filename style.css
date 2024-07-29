@@ -1,123 +1,87 @@
-/* body {
+body {
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     margin: 0px;
-
 }
 
-header {
+nav {
     background-color: #0B1411;
-    color: white;
-    padding: 10px 0;
+    padding: 20px;
     text-align: center;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
+nav a {
+    padding: 20px;
     color: white;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: #00757D;
-}
-
-.hero {
-    background-image: url('https://images.unsplash.com/flagged/photo-1551301622-6fa51afe75a9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8fHw%3D');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-block: 250px ;
     text-align: center;
+    font-weight: 800;
 }
 
-.hero h1 {
-    font-size: 5rem;
-    margin: auto;
+button {
+    font-weight: 800;
+    border: none;
+    background-color: green;
+    margin-bottom: 30px;
+    padding-inline: 30px;
+    padding-block: 10px;
     color: white;
-}
-
-.hero p {
-    font-size: 24px;
-    margin: 20px 0;
-    color: white;
-}
-
-.btn button {
-    color: white;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: 600;
-}
-
-.btn-contact button {
-    background-color: transparent;
-    border-width: 3px;
-    border-color: white;
-    margin-left: 20px;
-}
-
-.btn-about button {
-    background-color: white;
-    border-color: white;
-    color: black;
 
 }
 
-.btn:hover button {
-    background-color: black;
-    color: white;
-}
-
-section {
-    text-align: center;
-}
-
-section h2 {
-    font-size: 50px;
-}
-img{
-    width: 100%;
-    height: auto;
-}
-#about {
-    width: 50%;
-    margin: auto;
-    padding-block: 50px;
-}
-#services {
-    background-color: #e2e8f0;
-    padding-block: 50px;
-}
-#contact{
-    padding-block: 50px;
-    width: 50%;
-    margin: auto;
-}
 span {
-    color: #00757D;
+    color: green;
 }
 
-.service {
-    padding: 20px 0;
-    width: 50%;
+#home {
+    background-image: url('https://entreprise-engagee.natureetdecouvertes.com/wp-content/uploads/2019/12/banniere-canopee.jpg');
+    background-size: cover;
+    color: white;
+    padding-block: 150px;
+    text-align: center;
+}
+
+#about {
+    width: 70%;
     margin: auto;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+p {
+    line-height: 1.8;
+
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#services {
+    background-position: center;
+    width: 70%;
+    margin: auto;
+}
+
+#contact {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#contact input {
+    width: 50%;
+    padding: 10px;
+    height: 20px;
+    margin-block: 10px;
 }
 
 footer {
     background-color: #0B1411;
     color: white;
-    padding: 20px 0;
+    padding: 10px;
     text-align: center;
-} */
+}
